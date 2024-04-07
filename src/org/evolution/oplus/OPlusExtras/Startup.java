@@ -14,7 +14,7 @@ import android.content.pm.PackageManager;
 
 import org.evolution.oplus.OPlusExtras.doze.DozeUtils;
 import org.evolution.oplus.OPlusExtras.kcal.Kcal;
-import org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
+//import org.evolution.oplus.OPlusExtras.touch.TouchscreenGestureSettings;
 
 public class Startup extends BroadcastReceiver {
 
@@ -26,7 +26,7 @@ public class Startup extends BroadcastReceiver {
             // Main
             OPlusExtras.restoreSliderStates(context);
             OPlusExtras.restorePowerEfficientWorkqueueSetting(context);
-            OPlusExtras.restoreTouchboostSetting(context);
+           // OPlusExtras.restoreTouchboostSetting(context);
             OPlusExtras.restoreAntiFlickerSetting(context);
             OPlusExtras.restoreHBMSetting(context);
             OPlusExtras.restoreMaxBrightnessSetting(context);
@@ -53,6 +53,6 @@ public class Startup extends BroadcastReceiver {
             Kcal.restoreHueSetting(context);
             Kcal.restoreValueSetting(context);
             // Touchgestures
-            TouchscreenGestureSettings.MainSettingsFragment.restoreTouchscreenGestureStates(context);
+           // TouchscreenGestureSettings.MainSettingsFragment.restoreTouchscreenGestureStates(context);
     }
 }
