@@ -17,7 +17,6 @@ import androidx.preference.PreferenceManager;
 import androidx.viewpager.widget.ViewPager;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.widget.R;
 
 public class KcalActivity extends CollapsingToolbarBaseActivity {
 
